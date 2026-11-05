@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>我的個人網站</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Microsoft JhengHei", sans-serif;
+    background: #f3f6fb;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #4776e6, #8e54e9);
+    color: white;
+    text-align: center;
+    padding: 65px 20px;
+}
+
+header h1 {
+    font-size: 38px;
+}
+
+nav {
+    background: #26344a;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 3px 12px #ddd;
+}
+
+h2 {
+    color: #4776e6;
+}
+
+footer {
+    background: #26344a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 27px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .container {
+        padding: 12px;
+    }
+
+    .card {
+        padding: 20px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>歡迎來到我的個人網站</h1>
+    <p>探索自我・學習成長・創造未來</p>
+</header>
+
+<nav>
+    <a href="#about">關於我</a>
+    <a href="#interest">興趣</a>
+    <a href="#goal">學習目標</a>
+</nav>
+
+<div class="container">
+
+    <section class="card" id="about">
+        <h2>關於我</h2>
+        <p>大家好！歡迎來到我的個人網站。</p>
+        <p>這是我使用 AI 協助製作的第一個 RWD 響應式網站。</p>
+    </section>
+
+    <section class="card" id="interest">
+        <h2>我的興趣</h2>
+        <p>喜歡學習新知識、探索科技，以及使用 AI 創造新的可能性。</p>
+    </section>
+
+    <section class="card" id="goal">
+        <h2>我的學習目標</h2>
+        <p>學習 HTML、CSS 與網頁設計，建立屬於自己的網站。</p>
+    </section>
+
+</div>
+
+<footer>
+    <p>© 2026 我的個人網站 | AI 網頁設計作業</p>
+</footer>
+
+</body>
+</html>
